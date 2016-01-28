@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 import collections
 
 from django.utils.encoding import force_text
+from django.core.validators import RegexValidator
 
 from rest_framework import metadata
 from rest_framework import serializers
@@ -76,5 +77,14 @@ class VerboseMetadata(metadata.SimpleMetadata):
                 }
                 for choice_value, choice_name in field.choices.items()
             ]
+
+        # handle RegexField
+        if isinstance(field, serializers.RegexField):
+            pattern = None
+            for validator in field.validators:
+                if isinstance(validator, RegexValidator):
+                    pattern = validator.regex.pattern
+                    break
+            field_info['pattern'] = force_text(pattern, strings_only=True)
 
         return field_info
