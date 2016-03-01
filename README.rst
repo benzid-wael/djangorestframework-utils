@@ -13,7 +13,7 @@ Requirements
 
 -  Python (2.7, 3.3, 3.4)
 -  Django (1.6, 1.7, 1.8)
--  Django REST Framework (2.4, 3.0, 3.1)
+-  Django REST Framework (3.0, 3.1)
 
 Installation
 ------------
@@ -24,57 +24,39 @@ Install using ``pip``\ …
 
     $ pip install djangorestframework-utils
 
+Features
+--------
+
+* VerboseMetadata (which remove any ambiguity in REST Framework's ``SimpleMetadata``)
+* modelserializer_factory
+
+
+VerboseMetadata features
+------------------------
+
+* Add field's ``allow_null`` and ``default`` properties
+* Include ``pattern`` property for ``RegexField``
+* Include ``max_digits`` and ``decimal_places`` properties for ``DecimalField``
+
+Read more in [documentation](http://benzid_wael.github.io/djangorestframework-utils
+/docs)
+
 Example
 -------
 
 TODO: Write example.
 
-Testing
--------
 
-Install testing requirements.
+Documentation & Support
+-----------------------
 
-.. code:: bash
+Full documentation for the project is available at `docs`_.
 
-    $ pip install -r requirements.txt
+You may also want to follow the `author`_ on Twitter.
 
-Run with runtests.
-
-.. code:: bash
-
-    $ ./runtests.py
-
-You can also use the excellent `tox`_ testing tool to run the tests
-against all supported versions of Python and Django. Install tox
-globally, and then simply run:
-
-.. code:: bash
-
-    $ tox
-
-Documentation
--------------
-
-To build the documentation, you’ll need to install ``mkdocs``.
-
-.. code:: bash
-
-    $ pip install mkdocs
-
-To preview the documentation:
-
-.. code:: bash
-
-    $ mkdocs serve
-    Running at: http://127.0.0.1:8000/
-
-To build the documentation:
-
-.. code:: bash
-
-    $ mkdocs build
 
 .. _tox: http://tox.readthedocs.org/en/latest/
+.. _author: https://twitter.com/benzid_wael
 
 .. |build-status-image| image:: https://secure.travis-ci.org/benzid-wael/django-rest-framework-utils.svg?branch=master
    :target: http://travis-ci.org/benzid-wael/django-rest-framework-utils?branch=master
