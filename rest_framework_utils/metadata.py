@@ -87,4 +87,9 @@ class VerboseMetadata(metadata.SimpleMetadata):
                     break
             field_info['pattern'] = force_text(pattern, strings_only=True)
 
+        # handle DecimalField
+        if isinstance(field, serializers.DecimalField):
+            for attr in ('max_digits', 'decimal_places'):
+                field_info[attr] = force_text(getattr(field, attr), strings_only=True)
+
         return field_info
