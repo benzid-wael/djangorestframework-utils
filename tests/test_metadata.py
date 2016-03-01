@@ -81,6 +81,22 @@ def compareDict(dict1, dict2):
         'required': False,
         'default': None
     }),
+    (serializers.DecimalField(max_digits=10, decimal_places=2), {
+        'type': 'decimal',
+        'allow_null': False,
+        'read_only': False,
+        'required': True,
+        'max_digits': 10,
+        'decimal_places': 2
+
+    }),
+    (serializers.FloatField(), {
+        'type': 'float',
+        'allow_null': False,
+        'read_only': False,
+        'required': True,
+
+    }),
 ])
 def test_field_repr(field, expected):
     meta = VerboseMetadata()
