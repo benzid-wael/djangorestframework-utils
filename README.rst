@@ -38,8 +38,7 @@ VerboseMetadata features
 * Include ``pattern`` property for ``RegexField``
 * Include ``max_digits`` and ``decimal_places`` properties for ``DecimalField``
 
-Read more in [documentation](http://benzid_wael.github.io/djangorestframework-utils
-/docs)
+For further information, see the [documentation](http://benzid_wael.github.io/djangorestframework-utils/docs).
 
 Example
 -------
