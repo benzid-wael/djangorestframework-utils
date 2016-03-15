@@ -62,7 +62,8 @@ class VerboseMetadata(metadata.SimpleMetadata):
         # Handle default attribute
         default_value = getattr(field, 'default')
         if (default_value is not empty):
-            field_info['default'] = force_text(default_value, strings_only=True)
+            field_info['default'] = force_text(
+                default_value, strings_only=True)
 
         for attr in attrs:
             value = getattr(field, attr, None)
@@ -90,6 +91,7 @@ class VerboseMetadata(metadata.SimpleMetadata):
         # handle DecimalField
         if isinstance(field, serializers.DecimalField):
             for attr in ('max_digits', 'decimal_places'):
-                field_info[attr] = force_text(getattr(field, attr), strings_only=True)
+                field_info[attr] = force_text(
+                    getattr(field, attr), strings_only=True)
 
         return field_info
