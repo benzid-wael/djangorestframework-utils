@@ -80,3 +80,9 @@ To build the documentation:
    :target: http://travis-ci.org/benzid-wael/django-rest-framework-utils?branch=master
 .. |pypi-version| image:: https://img.shields.io/pypi/v/djangorestframework-utils.svg
    :target: https://pypi.python.org/pypi/djangorestframework-utils
+
+
+.. image:: https://d2weczhvl823v0.cloudfront.net/benzid-wael/django-rest-framework-utils/trend.png
+   :alt: Bitdeli badge
+   :target: https://bitdeli.com/free
+
