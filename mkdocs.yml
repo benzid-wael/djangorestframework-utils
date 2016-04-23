@@ -1,4 +1,4 @@
 site_name: django-rest-utils
 site_description: Utilities for Django REST Framework
-repo_url: https://github.com/benzid-wael/django-rest-framework-utils
-site_dir: _html
+repo_url: https://github.com/benzid-wael/django-rest-utils
+site_dir: docs/build/html
