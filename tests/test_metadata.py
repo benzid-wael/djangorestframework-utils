@@ -3,7 +3,7 @@ import pytest
 
 from rest_framework import serializers
 
-from rest_framework_utils.metadata import VerboseMetadata
+from django_rest_utils.metadata import VerboseMetadata
 
 
 def compareDict(dict1, dict2):

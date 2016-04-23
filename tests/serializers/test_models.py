@@ -7,8 +7,8 @@ from django.core.exceptions import ImproperlyConfigured
 
 from rest_framework import serializers
 
-from rest_framework_utils.metadata import VerboseMetadata
-from rest_framework_utils.serializers.models import modelserializer_factory
+from django_rest_utils.metadata import VerboseMetadata
+from django_rest_utils.serializers.models import modelserializer_factory
 
 
 class Person(models.Model):
