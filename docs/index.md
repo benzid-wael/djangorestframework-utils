@@ -1,15 +1,15 @@
 <div class="badges">
-    <a href="http://travis-ci.org/benzid-wael/django-rest-utils">
-        <img src="https://travis-ci.org/benzid-wael/django-rest-utils.svg?branch=master">
+    <a href="http://travis-ci.org/benzid-wael/djangorestframework-utils">
+        <img src="https://travis-ci.org/benzid-wael/djangorestframework-utils.svg?branch=master">
     </a>
-    <a href="https://pypi.python.org/pypi/django-rest-utils">
-        <img src="https://img.shields.io/pypi/v/django-rest-utils.svg">
+    <a href="https://pypi.python.org/pypi/djangorestframework-utils">
+        <img src="https://img.shields.io/pypi/v/djangorestframework-utils.svg">
     </a>
 </div>
 
 ---
 
-# django-rest-utils
+# djangorestframework-utils
 
 Utilities for Django REST Framework
 
@@ -29,7 +29,7 @@ Utilities for Django REST Framework
 Install using `pip`...
 
 ```bash
-$ pip install django-rest-utils
+$ pip install djangorestframework-utils
 ```
 
 ## Example

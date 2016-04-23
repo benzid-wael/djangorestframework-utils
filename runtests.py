@@ -12,7 +12,7 @@ PYTEST_ARGS = {
     'fast': ['tests', '-q'],
 }
 
-FLAKE8_ARGS = ['django_rest_utils', 'tests', '--ignore=E501']
+FLAKE8_ARGS = ['drf_utils', 'tests', '--ignore=E501']
 
 
 sys.path.append(os.path.dirname(__file__))
