@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+import sys
 import pytest
 
 from django.db import models
@@ -87,8 +87,18 @@ class TestModelSerializerFactory(object):
         assert serializer.is_valid() is True
         assert serializer.data == dict(age=126)
 
+    @pytest.mark.xfail(sys.version_info >= (3, 0),
+                       reason="In Python3, dict.keys() returns an iterable")
     def test_metadata(self):
         metadata = VerboseMetadata()
         serializer = modelserializer_factory(Person)(data=self.person_data)
         serializer_info = metadata.get_serializer_info(serializer)
         assert serializer_info.keys() == ['id', 'name', 'age']
+
+    @pytest.mark.skipif(sys.version_info < (3, 0),
+                        reason="Test only for Python 3")
+    def test_metadata_py3(self):
+        metadata = VerboseMetadata()
+        serializer = modelserializer_factory(Person)(data=self.person_data)
+        serializer_info = metadata.get_serializer_info(serializer)
+        assert list(serializer_info.keys()) == ['id', 'name', 'age']
