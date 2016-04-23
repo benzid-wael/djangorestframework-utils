@@ -4,6 +4,7 @@
 .*
 
 html/
+_html/
 htmlcov/
 coverage/
 build/

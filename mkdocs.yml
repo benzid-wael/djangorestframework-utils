@@ -1,4 +1,4 @@
-site_name: djangorestframework-utils
+site_name: django-rest-utils
 site_description: Utilities for Django REST Framework
 repo_url: https://github.com/benzid-wael/django-rest-framework-utils
-site_dir: html
+site_dir: _html
