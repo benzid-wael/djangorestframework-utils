@@ -1,6 +1,6 @@
 <div class="badges">
-    <a href="http://travis-ci.org/benzid-wael/django-rest-framework-utils">
-        <img src="https://travis-ci.org/benzid-wael/django-rest-framework-utils.svg?branch=master">
+    <a href="http://travis-ci.org/benzid-wael/djangorestframework-utils">
+        <img src="https://travis-ci.org/benzid-wael/djangorestframework-utils.svg?branch=master">
     </a>
     <a href="https://pypi.python.org/pypi/djangorestframework-utils">
         <img src="https://img.shields.io/pypi/v/djangorestframework-utils.svg">
@@ -50,7 +50,9 @@ Run with runtests.
 $ ./runtests.py
 ```
 
-You can also use the excellent [tox](http://tox.readthedocs.org/en/latest/) testing tool to run the tests against all supported versions of Python and Django. Install tox globally, and then simply run:
+You can also use the excellent [tox](http://tox.readthedocs.org/en/latest/)
+testing tool to run the tests against all supported versions of Python and Django.
+Install tox globally, and then simply run:
 
 ```bash
 $ tox

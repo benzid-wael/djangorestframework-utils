@@ -7,7 +7,7 @@ from setuptools import setup
 
 
 name = 'djangorestframework-utils'
-package = 'rest_framework_utils'
+package = 'drf_utils'
 description = 'Utilities for Django REST Framework'
 url = 'https://github.com/benzid-wael/django-rest-framework-utils'
 author = 'Wael BEN ZID'
