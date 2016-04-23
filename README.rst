@@ -1,4 +1,4 @@
-djangorestframework-utils
+django-rest-utils
 ======================================
 
 |build-status-image| |pypi-version|
@@ -22,7 +22,7 @@ Install using ``pip``\ …
 
 .. code:: bash
 
-    $ pip install djangorestframework-utils
+    $ pip install django-rest-utils
 
 Features
 --------
@@ -38,7 +38,7 @@ VerboseMetadata features
 * Include ``pattern`` property for ``RegexField``
 * Include ``max_digits`` and ``decimal_places`` properties for ``DecimalField``
 
-For further information, see the [documentation](http://benzid_wael.github.io/djangorestframework-utils/docs).
+For further information, see the [documentation](http://benzid_wael.github.io/django-rest-utils/docs).
 
 Example
 -------
@@ -57,7 +57,7 @@ You may also want to follow the `author`_ on Twitter.
 .. _tox: http://tox.readthedocs.org/en/latest/
 .. _author: https://twitter.com/benzid_wael
 
-.. |build-status-image| image:: https://secure.travis-ci.org/benzid-wael/django-rest-framework-utils.svg?branch=master
-   :target: http://travis-ci.org/benzid-wael/django-rest-framework-utils?branch=master
-.. |pypi-version| image:: https://img.shields.io/pypi/v/djangorestframework-utils.svg
-   :target: https://pypi.python.org/pypi/djangorestframework-utils
+.. |build-status-image| image:: https://secure.travis-ci.org/benzid-wael/django-rest-utils.svg?branch=master
+   :target: http://travis-ci.org/benzid-wael/django-rest-utils?branch=master
+.. |pypi-version| image:: https://img.shields.io/pypi/v/django-rest-utils.svg
+   :target: https://pypi.python.org/pypi/django-rest-utils
