@@ -1,15 +1,15 @@
 <div class="badges">
-    <a href="http://travis-ci.org/benzid-wael/django-rest-framework-utils">
-        <img src="https://travis-ci.org/benzid-wael/django-rest-framework-utils.svg?branch=master">
+    <a href="http://travis-ci.org/benzid-wael/django-rest-utils">
+        <img src="https://travis-ci.org/benzid-wael/django-rest-utils.svg?branch=master">
     </a>
-    <a href="https://pypi.python.org/pypi/djangorestframework-utils">
-        <img src="https://img.shields.io/pypi/v/djangorestframework-utils.svg">
+    <a href="https://pypi.python.org/pypi/django-rest-utils">
+        <img src="https://img.shields.io/pypi/v/django-rest-utils.svg">
     </a>
 </div>
 
 ---
 
-# djangorestframework-utils
+# django-rest-utils
 
 Utilities for Django REST Framework
 
@@ -29,7 +29,7 @@ Utilities for Django REST Framework
 Install using `pip`...
 
 ```bash
-$ pip install djangorestframework-utils
+$ pip install django-rest-utils
 ```
 
 ## Example
@@ -50,7 +50,9 @@ Run with runtests.
 $ ./runtests.py
 ```
 
-You can also use the excellent [tox](http://tox.readthedocs.org/en/latest/) testing tool to run the tests against all supported versions of Python and Django. Install tox globally, and then simply run:
+You can also use the excellent [tox](http://tox.readthedocs.org/en/latest/)
+testing tool to run the tests against all supported versions of Python and Django.
+Install tox globally, and then simply run:
 
 ```bash
 $ tox

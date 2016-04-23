@@ -1,5 +1,5 @@
 django-rest-utils
-======================================
+=================
 
 |build-status-image| |pypi-version|
 
@@ -27,7 +27,7 @@ Install using ``pip``\ …
 Features
 --------
 
-* VerboseMetadata (which remove any ambiguity in REST Framework's ``SimpleMetadata``)
+* VerboseMetadata (which is more verbose and not ambiguous like ``SimpleMetadata``)
 * modelserializer_factory
 
 
