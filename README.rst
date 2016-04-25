@@ -59,5 +59,7 @@ You may also want to follow the `author`_ on Twitter.
 
 .. |build-status-image| image:: https://secure.travis-ci.org/benzid-wael/djangorestframework-utils.svg?branch=master
    :target: http://travis-ci.org/benzid-wael/djangorestframework-utils?branch=master
+.. |codecov| image:: https://codecov.io/github/benzid-wael/djangorestframework-utils/coverage.svg?branch=master
+   :target: https://codecov.io/github/benzid-wael/djangorestframework-utils?branch=master
 .. |pypi-version| image:: https://img.shields.io/pypi/v/djangorestframework-utils.svg
    :target: https://pypi.python.org/pypi/djangorestframework-utils

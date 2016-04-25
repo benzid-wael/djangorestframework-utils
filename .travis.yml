@@ -27,6 +27,12 @@ env:
 matrix:
   fast_finish: true
 
+before_install:
+  - pip install codecov
+
+after_success:
+  - codecov
+
 install:
   - pip install tox
 
