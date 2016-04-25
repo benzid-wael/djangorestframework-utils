@@ -1,7 +1,7 @@
 djangorestframework-utils
 =========================
 
-|build-status-image| |pypi-version|
+|pypi-version| |build-status-image| |codecov|
 
 Overview
 --------
