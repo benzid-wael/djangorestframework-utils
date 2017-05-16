@@ -1,7 +1,7 @@
 djangorestframework-utils
 =========================
 
-|pypi-version| |build-status-image| |codecov|
+|build-status-image| |pypi-version|
 
 Overview
 --------
@@ -38,7 +38,7 @@ VerboseMetadata features
 * Include ``pattern`` property for ``RegexField``
 * Include ``max_digits`` and ``decimal_places`` properties for ``DecimalField``
 
-For further information, see the [documentation](http://benzid_wael.github.io/djangorestframework-utils/docs).
+For further information, see the `documentation`_ .
 
 Example
 -------
@@ -49,17 +49,18 @@ TODO: Write example.
 Documentation & Support
 -----------------------
 
-Full documentation for the project is available at `docs`_.
+Full documentation for the project is available at  `docs`_ .
 
 You may also want to follow the `author`_ on Twitter.
 
 
+.. _docs: http://benzid_wael.github.io/djangorestframework-utils/docs
+.. _documentation: http://benzid_wael.github.io/djangorestframework-utils/docs
 .. _tox: http://tox.readthedocs.org/en/latest/
 .. _author: https://twitter.com/benzid_wael
 
 .. |build-status-image| image:: https://secure.travis-ci.org/benzid-wael/djangorestframework-utils.svg?branch=master
    :target: http://travis-ci.org/benzid-wael/djangorestframework-utils?branch=master
-.. |codecov| image:: https://codecov.io/github/benzid-wael/djangorestframework-utils/coverage.svg?branch=master
-   :target: https://codecov.io/github/benzid-wael/djangorestframework-utils?branch=master
 .. |pypi-version| image:: https://img.shields.io/pypi/v/djangorestframework-utils.svg
    :target: https://pypi.python.org/pypi/djangorestframework-utils
+
